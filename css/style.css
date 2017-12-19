@@ -1,0 +1,318 @@
+body{
+/*	width: 100%;*/
+	margin-left:80px;
+	margin-right:70px
+	margin-top:50px;
+}
+
+#site{
+	top: 40vh;
+	left:93%;
+	position: fixed;
+	width: 2vw;
+	height: 8vh;
+	transform: rotate(90deg);
+}
+
+a{
+	text-decoration: none;
+	font-family: helvetica;
+	color: black;
+	text-transform: uppercase;
+}
+
+.ham-container{
+		position: fixed;
+		z-index: 90;
+	}
+.hamburger{
+		margin-left: none;
+		top: 20px;
+		left: 5px;
+		position: absolute;
+		
+	}
+#mySideNav{
+	width: 0;
+	height: 100vh;
+	z-index: 100;
+	background-color: black;
+	display: block;
+	position: fixed;
+	text-align: left;
+	transition: width .5s; 
+	overflow-x: hidden;
+	opacity: 0.9;
+	}
+
+
+.sideNav a{
+	text-decoration: none;
+	font-size: 3vh;
+	color: white;
+	display: block;
+	padding: 5px;
+	font-family: helvetica;
+	margin-top: 30px;
+}
+
+.sideNav a:hover{
+	text-decoration: underline;
+
+}
+
+
+#title{
+	position: absolute;
+/*	padding-left: 29px;*/
+	top:9vh;
+	z-index: 0;
+}
+
+h1{
+	font-family: helvetica;
+	font-size: 12.5vh;
+	text-decoration: underline;
+	margin-bottom: 0;
+/*	margin-top: auto;*/
+
+}
+
+h2{
+	font-family: helvetica;
+	font-size: 3vh;
+	margin-top: 2;
+}
+
+h3{
+	font-family: helvetica;
+	font-size:2vh;
+	font-weight: 300;
+	width: 35%;
+	text-align: justify-all;
+	text-transform: uppercase;
+}
+
+p{
+	top: 20px;
+	font-family: helvetica; 
+	font-weight: 400;
+	font-size: 1.3vh;
+	
+
+}
+
+#nav{
+	position: absolute;
+	top:80vh;
+	left: 1.5vw; 
+}
+
+#kw{
+	position: absolute;
+	left:40vw;
+	z-index: -1;
+	top: 9%;
+}
+
+
+#scroll{
+	position: absolute;
+	width: 2vw;
+	height: 8vh;
+	left: 6vw;
+	top: 4vh;
+	transform: rotate(-90deg);
+}
+
+
+#arrow1{
+position: absolute;
+left:2vw;
+top:4vh;
+}
+
+
+.track-num{
+	font-family: helvetica;
+	font-weight: 700;
+	font-size: 13vh;
+	text-decoration: underline;
+	margin-bottom: 0;
+	margin-top: 100px;
+
+}
+
+.track-name{
+	font-family: helvetica;
+	text-decoration: underline;
+	font-weight: 700;
+	font-size: 10vh;
+	margin-bottom: 0;
+}
+
+.track-description{
+	position:relative;
+	font-family: helvetica;
+	font-weight: 700;
+	font-size:3vh;
+
+}
+
+
+/*<--- Home Page --->*/
+
+#home{
+	width: 100%;
+	height: 1000px;
+	position: static;
+
+}
+
+/*<--- desire Page --->*/
+
+#desire{
+	width: 25%;
+	height: 600px;
+	position: relative;
+	text-align: left;
+	margin-bottom: 50px;
+	z-index: 0;
+
+}
+
+#des-img{
+	position: relative;
+	width: 25%;
+	height: 750px;
+	/*top:8vh;
+	left:50vw;*/
+	z-index:-1;
+
+}
+
+/*<--- humility Page --->*/
+
+#humility{
+	left:50%;
+	width: 25%;
+	height: 600px;
+	position: relative;
+	text-align: left;
+	margin-bottom: 50px;
+}
+
+#hum-img{
+	position: relative;
+	width: 25%;
+	height: 750px;
+/*	top:8vh;
+	left:-50vw;*/
+	z-index:-1;
+}
+
+
+/*<--- knowledge Page --->*/
+#knowledge{
+	width: 25%;
+	height: 600px;
+	position: relative;
+	text-align: left;
+	margin-bottom: 50px;
+	z-index: 0;
+
+}
+
+#kno-img{
+	position: relative;
+	width: 25%;
+	height: 750px;
+	/*top:8vh;
+	left:50vw;*/
+	z-index:-1;
+
+}
+/*<--- perspective Page --->*/
+
+#perspective{
+	left:50%;
+	width: 25%;
+	height: 600px;
+	position: relative;
+	text-align: left;
+	margin-bottom: 50px;
+}
+
+#per-img{
+	position: relative;
+	width: 25%;
+	height: 750px;
+	/*top:8vh;
+	left:50vw;*/
+	z-index:-1;
+}
+/*<--- Integrity Page --->*/
+#integrity{
+	width: 25%;
+	height: 600px;
+	position: relative;
+	text-align: left;
+	margin-bottom: 50px;
+
+
+}
+
+#int-img{
+	position: relative;
+	width: 25%;
+	height: 750px;
+	/*top:8vh;
+	left:50vw;*/
+	z-index:-1;
+}
+/*<--- Truth Page --->*/
+
+#truth{
+	left:50%;
+	width: 25%;
+	height: 760px;
+	position: relative;
+	text-align: left;
+	margin-bottom: 50px;
+}
+
+#tru-img{
+	position: relative;
+	width: 25%;
+	height: auto;
+	/*top:8vh;
+	left:50vw;*/
+	z-index:-1;
+
+}
+/*
+.song{
+	position: absolute;
+	padding-left: 29px;
+	z-index: 0;
+
+}
+h1{
+	font-family: helvetica;
+	font-size: 13vh;
+	text-decoration: underline;
+	margin-bottom: 0;
+
+}
+
+h2{
+	font-family: helvetica;
+	font-size: 10vh;
+	margin-bottom: 0;
+}
+
+p{
+	width: 10vw;
+}*/
+
+

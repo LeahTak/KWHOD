@@ -1,0 +1,23 @@
+.song{
+	position: absolute;
+	padding-left: 29px;
+	z-index: 0;
+
+}
+h1{
+	font-family: helvetica;
+	font-size: 13vh;
+	text-decoration: underline;
+	margin-bottom: 0;
+
+}
+
+h2{
+	font-family: helvetica;
+	font-size: 10vh;
+	margin-bottom: 0;
+}
+
+p{
+	width: 10vw;
+}
